@@ -1,9 +1,8 @@
 package com.example.app.car.configurator;
 
 import android.R.string;
-import android.support.v7.app.ActionBarActivity;
-import android.support.v7.app.ActionBar;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
 import android.view.ContextMenu;
 import android.view.ContextMenu.ContextMenuInfo;
@@ -22,7 +21,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 
-public class MainActivity extends Activity
+public class MainActivity extends FragmentActivity
 {
 TextView tv, tv1, tv2, tv3, tv4, text;
 String Model = "", Engine = "", K = "", Price;

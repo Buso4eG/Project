@@ -22,6 +22,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="button_layout" android:label="@layout/button_layout"></activity>
     </application>
 
 </manifest>
